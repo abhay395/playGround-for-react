@@ -3,17 +3,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-black bg-opacity-80">
     <!-- 1st section Start -->
     <header class="bg-cover w-full h-[500px]">
-      <div
-        class="bg-[url('./image/Hero.jpg')] opacity-80 h-[500px] bg-cover	 "
-      >
+      <div class="bg-[url('./image/Hero.jpg')] opacity-80 h-[500px] bg-cover">
         <div class="flex justify-between items-center">
-          <img src="./image/Logo.png" class="w-[120px] pt-2 " alt="" />
+          <img src="./image/Logo.png" class="w-[120px] pt-2" alt="" />
 
           <div class="mr-10">
             <select
@@ -44,26 +49,271 @@
             placeholder="Email address"
             class="outline-none rounded mt-3 w-96 px-3 text-[20px] h-14 bg-black opacity-80 border-"
           />
-          <button class="bg-[#E50914] px-6 mt-3 text-[20px] ml-2 h-14 rounded-[5px]">
-            Get Started <i class="fa-solid fa-chevron-right px-2 " style="color: #ffffff;"></i>
+          <button
+            class="bg-[#E50914] px-6 mt-3 text-[20px] ml-2 h-14 rounded-[5px]"
+          >
+            Get Started
+            <i
+              class="fa-solid fa-chevron-right px-2"
+              style="color: #ffffff"
+            ></i>
           </button>
         </div>
       </div>
     </header>
     <!-- 1st section complete -->
-    <!-- 2nd section -->
-    <section class="w-full h-[600px] bg-black mt-2 text-center text-white relative " >
-     <div class="pt-[50px]" >
-      <h1 class="text-[40px] font-bold" >Enjoy on your TV</h1>
-      <h2 class="text-[20px] font-semibold" >Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
-      <div>
-      <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v
-     " class="w-full" autoplay loop controls></video>
-      <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png
-      " alt="" class="absolute top-40 " >
-    </div>
-    </div>
-    </section>
+    <!-- 2nd section Start -->
+    <section
+      class="w-full h-[600px] xl:h-[400px] bg-black mt-2 text-center text-white flex xl:items-center flex-col xl:flex-row items-center xl:justify-center"
+    >
+      <div class="pt-[40px]">
+        <h1 class="text-[40px] font-bold">Enjoy on your TV</h1>
+        <h2 class="text-[20px] font-semibold mb-2">
+          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+          players and more.
+        </h2>
+      </div>
 
+      <div class="w-[657px] xl:pb-80 relative">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png
+        "
+          alt=""
+          class="absolute top-[0px] z-10 left-20 w-[480px]"
+        />
+        <div class="">
+          <video
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v
+      "
+            class="w-[412px] absolute top-10 z-0 left-[82px] overflow-hidden"
+            autoplay
+            loop
+          ></video>
+        </div>
+      </div>
+    </section>
+    <!-- 2nd section complete -->
+
+    <!-- 3rd section start -->
+    <section
+      class="w-full h-[700px] xl:h-[700px] bg-black mt-2 text-center text-white flex xl:items-center flex-col xl:flex-row items-center xl:justify-center"
+    >
+      <div class="pt-[40px] space-y-5">
+        <h1 class="text-[35px] font-bold">
+          Download your shows to watch offline
+        </h1>
+        <h2 class="text-[20px] font-semibold mb-2">
+          Save your favourites easily and always have something to watch.
+        </h2>
+      </div>
+      <div class="relative">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+          alt=""
+          class="left-20 w-[680px]"
+        />
+        <div
+          class="bg-black border-solid border-[1px] items-center rounded-lg flex border-white absolute bottom-[40px] w-[370px] left-[155px] text-left"
+        >
+          <img
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+            class="w-14 m-1"
+            alt=""
+          />
+          <div>
+            <h3>Stranger Things</h3>
+            <h4 class="text-[#0071eb]">Downloading...</h4>
+          </div>
+          <i
+            class="fa-solid fa-download absolute right-4"
+            style="color: #ffffff"
+          ></i>
+        </div>
+      </div>
+    </section>
+    <!-- 3rd section complete -->
+    <!-- 4th section Start  -->
+    <section
+      class="w-full h-[600px] xl:h-[470px] bg-black mt-2 text-center text-white flex xl:items-center flex-col xl:flex-row items-center xl:justify-center"
+    >
+      <div class="pt-[40px]">
+        <h1 class="text-[40px] font-bold">Watch everywhere</h1>
+        <h2 class="text-[20px] font-semibold mb-2">
+          Stream unlimited movies and TV shows on your phone, tablet, laptop,
+          and TV.
+        </h2>
+      </div>
+
+      <div class="w-[657px] xl:pb-80 relative">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png
+      "
+          alt=""
+          class="absolute top-[0px] z-10 left-20 w-[550px]"
+        />
+        <div class="">
+          <video
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+            class="w-[334px] absolute top-8 z-0 left-[184px] overflow-hidden"
+            autoplay
+            loop
+          ></video>
+        </div>
+      </div>
+    </section>
+    <!-- 4rt section complete -->
+    <section
+      class="w-full h-[700px] xl:h-[400px] bg-black mt-2 text-center text-white flex xl:items-center flex-col xl:flex-row-reverse items-center xl:justify-center"
+    >
+      <div class="pt-[60px] space-y-5">
+        <h1 class="text-[40px] font-bold">Create profiles for kids</h1>
+        <h2 class="text-[20px] font-semibold mb-2">
+          Send children on adventures with their favourite characters in a space
+          made just for them—free with your membership.
+        </h2>
+      </div>
+
+      <div class="w-[657px]">
+        <img
+          src="https://occ-0-4875-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
+          alt=""
+          class="w-[690px] xl:w-[500px]"
+        />
+      </div>
+    </section>
+    <!-- 4rt section complete -->
+    <!-- 5th section Start -->
+    <section
+      class="w-full h-auto pb-3 bg-black mt-2 text-center text-white flex  flex-col  items-center "
+    >
+      <h1 class="text-[40px] mt-20 font-bold">Frequently Asked Questions</h1>
+      <div class="section ">
+        <div
+          class="w-[600px]  md:w-[800px] xl:w-[1000px] bg-[#292424] h-20 flex items-center text-left relative"
+        >
+          <h1 class="text-[25px] pl-5">What is Netflix?</h1>
+          <button  class="absolute right-5 text-[25px]">
+            <i class="fa-solid fa-plus" id="hidden"></i>
+            <i class="fa-solid fa-minus" id="show"></i>
+          </button>
+        </div>
+        <div
+          class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] p-3 flex items-center text-left mt-1"
+          id="show"
+        >
+          <p class="text-[20px]">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed enim
+            dolorum amet est, vel id. Dolore, blanditiis soluta cum eligendi
+            incidunt
+            <br />
+            quasi illum, possimus molestiae debitis modi eos velit quae!
+          </p>
+        </div>
+      </div>
+      <div class="section  mt-1 " >
+        <div class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] h-20 flex items-center text-left relative " >
+          <h1 class="text-[25px] pl-5" >How much does Netflix cost?</h1>
+          <button class="absolute right-5 text-[25px]" >
+            <i class="fa-solid fa-plus" id="hidden"></i>
+            <i class="fa-solid fa-minus" id="show" ></i>
+          </button>
+        </div>
+        <div class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] p-3 flex items-center text-left mt-1  " id="show" >
+          <p class="text-[20px]  " >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed enim dolorum amet est, vel id. Dolore, blanditiis soluta cum eligendi incidunt
+          <br> quasi illum, possimus molestiae debitis modi eos velit quae!
+        </p></div>
+      </div>
+      <div class="section  mt-1 " >
+        <div class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] h-20 flex items-center text-left relative " >
+          <h1 class="text-[25px] pl-5" >Where can I  watch?</h1>
+          <button class="absolute right-5 text-[25px]" >
+            <i class="fa-solid fa-plus" id="hidden"></i>
+            <i class="fa-solid fa-minus" id="show" ></i>
+          </button>
+        </div>
+        <div class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] p-3 flex items-center text-left mt-1  " id="show" >
+          <p class="text-[20px]  " >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed enim dolorum amet est, vel id. Dolore, blanditiis soluta cum eligendi incidunt
+          <br> quasi illum, possimus molestiae debitis modi eos velit quae!
+        </p></div>
+      </div>
+      <div class="section  mt-1 " >
+        <div class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] h-20 flex items-center text-left relative " >
+          <h1 class="text-[25px] pl-5" >How do I cancel?</h1>
+          <button class="absolute right-5 text-[25px]" >
+            <i class="fa-solid fa-plus" id="hidden"></i>
+            <i class="fa-solid fa-minus" id="show" ></i>
+          </button>
+        </div>
+        <div class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] p-3 flex items-center text-left mt-1  " id="show" >
+          <p class="text-[20px]  " >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed enim dolorum amet est, vel id. Dolore, blanditiis soluta cum eligendi incidunt
+          <br> quasi illum, possimus molestiae debitis modi eos velit quae!
+        </p></div>
+      </div>
+      <div class="section  mt-1 " >
+        <div class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] h-20 flex items-center text-left relative " >
+          <h1 class="text-[25px] pl-5" >What can I watch on Netflix?</h1>
+          <button class="absolute right-5 text-[25px]" >
+            <i class="fa-solid fa-plus" id="hidden"></i>
+            <i class="fa-solid fa-minus" id="show" ></i>
+          </button>
+        </div>
+        <div class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] p-3 flex items-center text-left mt-1  " id="show" >
+          <p class="text-[20px]  " >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed enim dolorum amet est, vel id. Dolore, blanditiis soluta cum eligendi incidunt
+          <br> quasi illum, possimus molestiae debitis modi eos velit quae!
+        </p></div>
+      </div>
+      <div class="section  mt-1 " >
+        <div class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] h-20 flex items-center text-left relative " >
+          <h1 class="text-[25px] pl-5" >Is Netflix good for kids?</h1>
+          <button class="absolute right-5 text-[25px]" >
+            <i class="fa-solid fa-plus" id="hidden"></i>
+            <i class="fa-solid fa-minus" id="show" ></i>
+          </button>
+        </div>
+        <div class="w-[600px] md:w-[800px] xl:w-[1000px] bg-[#292424] p-3 flex items-center text-left mt-1  " id="show" >
+          <p class="text-[20px]  " >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed enim dolorum amet est, vel id. Dolore, blanditiis soluta cum eligendi incidunt
+          <br> quasi illum, possimus molestiae debitis modi eos velit quae!
+        </p></div>
+      </div>
+      <h3 class="text-[20px] pt-10" >Ready to watch? Enter your email to create or restart your membership.</h3>
+      <div class="flex flex-row " >
+      <input
+      type="text"
+      placeholder="Email address"
+      class="outline-none rounded mt-3 w-96 px-3 text-[20px] h-14 bg-[#292424] opacity-80 border-"
+    />
+    <button
+      class="bg-[#E50914] px-6 mt-3 text-[20px] ml-2 h-14 rounded-[5px] inline-block"
+    >
+      Get Started
+      <i
+        class="fa-solid fa-chevron-right px-2"
+        style="color: #ffffff"
+      ></i>
+    </button>
+  </div>
+    </section>
+    <!-- 5th section complete -->
+    <footer
+      class="w-full h-auto xl:h-[400px] bg-black mt-2  text-white  "
+    >
+    <h1>Questions? Call <span class="underline" >000-800-919-1694</span></h1>
+    <ul>
+      <li>FAQ</li>
+      <li>FAQ</li>
+      <li>FAQ</li>
+      <li>FAQ</li>
+      <li>FAQ</li>
+      <li>FAQ</li>
+      <li>FAQ</li>
+    </ul>
+    </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
